@@ -3,8 +3,6 @@ import {
   AvatarGroup,
   Box,
   Divider,
-  ImageList,
-  ImageListItem,
   List,
   ListItem,
   ListItemAvatar,

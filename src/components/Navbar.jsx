@@ -1,4 +1,4 @@
-import { ConnectWithoutContactOutlined, Mail, Notifications, Pets } from "@mui/icons-material";
+import { ConnectWithoutContactOutlined, Mail, Notifications } from "@mui/icons-material";
 import {
   AppBar,
   Avatar,
@@ -45,7 +45,6 @@ const UserBox = styled(Box)(({ theme }) => ({
 }));
 const Navbar = ({mode, setMode}) => {
   const [open, setOpen] = useState(false);
-  const [nav, setNav] = useState('purple');
   return (
     <AppBar position="sticky"  sx={{bgcolor: (mode==='light'? 'purple': '#111')}}>
       <StyledToolbar>
