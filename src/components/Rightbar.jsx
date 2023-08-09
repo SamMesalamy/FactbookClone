@@ -13,7 +13,7 @@ import React from "react";
 
 const Rightbar = () => {
   return (
-    <Box flex={2} p={2} sx={{ display: { xs: "none", sm: "block" } }}>
+    <Box p={2} sx={{ display: { xs: "none", lg: "block" }, flex: {md: 1, lg: 2} }}>
       <Box position="fixed" width={300}>
         <Typography variant="h6" fontWeight={100}>
           Online 

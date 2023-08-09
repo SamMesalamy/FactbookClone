@@ -1,4 +1,4 @@
-import { ConnectWithoutContactOutlined, Mail, Notifications } from "@mui/icons-material";
+import { ConnectWithoutContactOutlined, Mail, Notifications, Spa } from "@mui/icons-material";
 import {
   AppBar,
   Avatar,
@@ -48,10 +48,10 @@ const Navbar = ({mode, setMode}) => {
   return (
     <AppBar position="sticky"  sx={{bgcolor: (mode==='light'? 'purple': '#111')}}>
       <StyledToolbar>
-        <Typography variant="h6" sx={{ display: { xs: "none", sm: "block" } }}>
+        <Typography variant="h6" sx={{ display: { xs: "none", sm: "block", md: 'none', lg: 'block' } }}>
           FamilyApp
         </Typography>
-        <ConnectWithoutContactOutlined sx={{ display: { xs: "block", sm: "none" } }} />
+        <Spa sx={{ display: { xs: "block", sm: "none", md: 'block', lg: "none"} }} />
         <Search>
           <InputBase placeholder="search..." />
         </Search>
@@ -95,7 +95,9 @@ const Navbar = ({mode, setMode}) => {
         <MenuItem>Logout</MenuItem>
       </Menu>
     </AppBar>
-  );
+
+
+  )
 };
 
 export default Navbar;
