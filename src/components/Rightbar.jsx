@@ -15,7 +15,7 @@ const Rightbar = () => {
   return (
     <Box p={2} sx={{ display: { xs: "none", lg: "block" }, flex: {md: 1, lg: 2} }}>
       <Box position="fixed" width={300}>
-        <Typography variant="h6" fontWeight={100}>
+        <Typography variant="h6" fontWeight={300}>
           Online 
         </Typography>
         <AvatarGroup max={5}>
@@ -55,7 +55,7 @@ const Rightbar = () => {
         </AvatarGroup>
     
     
-        <Typography variant="h6" fontWeight={100} mt={2}>
+        <Typography variant="h6" fontWeight={300} mt={2}>
           Interactions
         </Typography>
         <List sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>

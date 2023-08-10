@@ -1,4 +1,5 @@
 import { Favorite, FavoriteBorder, MoreVert, Share } from "@mui/icons-material";
+import profile from '../assets/217332432_1640541119468839_7569949172561908437_n.jpg';
 import {
   Avatar,
   Card,
@@ -15,9 +16,8 @@ const Post = (props) => {
     <Card sx={{ margin: 5 }}>
       <CardHeader
         avatar={
-          <Avatar sx={{ bgcolor: "purple" }} aria-label="recipe">
-            A
-          </Avatar>
+          <Avatar sx={{ bgcolor: "purple" }} aria-label="recipe" src={profile}/>
+         
         }
         action={
           <IconButton aria-label="settings">
