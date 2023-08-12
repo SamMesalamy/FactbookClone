@@ -21,20 +21,26 @@ const Feed = () => {
       ) : (
         <>
           <Post 
-          src="https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/1/grapes-and-silver-goblet-tom-mc-nemar.jpg" title="Ahmed Ali" desc="yeah this is love"/>
+          url="https://material-ui.com/static/images/avatar/4.jpg"
+          src="https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/1/grapes-and-silver-goblet-tom-mc-nemar.jpg" title="Ahmed Khalifa" desc="yeah this is love"/>
           <Post 
+             url="https://material-ui.com/static/images/avatar/5.jpg"
           src="https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/1/grapes-with-apples-tom-mc-nemar.jpg"
-          title="Mohamed" desc="yeah this is love"/>
+          title="Mohamed Raafat" desc="yeah this is love"/>
           <Post title="Mohamed Sayed" desc="yeah this is love"
+                url="https://material-ui.com/static/images/avatar/7.jpg"
           src="https://render.fineartamerica.com/images/images-profile-flow/400/images-medium-large/purple-ivan-vukelic.jpg"
           />
-          <Post  title="Sayed" desc="yeah this is love"
+          <Post  title="Sayed Hassan" desc="yeah this is love"
+            url="https://material-ui.com/static/images/avatar/2.jpg"
           src="https://render.fineartamerica.com/images/images-profile-flow/400/images-medium-large-5/moonlight-reflection-chad-dutson.jpg"
           />
-          <Post title="Youssef" desc="yeah this is love"
+          <Post title="Youssef Othman" desc="yeah this is love"
+                url="https://material-ui.com/static/images/avatar/7.jpg"
           src="https://render.fineartamerica.com/images/images-profile-flow/400/images-medium-large-5/pomegranate-still-life-tom-mc-nemar.jpg"
           />
           <Post title="Ramy Gamal" desc="yeah this is love"
+             url="https://material-ui.com/static/images/avatar/7.jpg"
            src="https://render.fineartamerica.com/images/images-profile-flow/400/images-medium-large-5/purple-fire-scott-norris.jpg"
           />
         </>
